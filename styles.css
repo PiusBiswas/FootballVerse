@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -16,7 +15,25 @@ nav a {
     color: white;
     margin-left: 15px;
     text-decoration: none;
+} 
+
+
+
+.hero {
+    text-align: center;
+    background-image: url('stadium.jpg'); /* Apnar ekta banner image lagbe */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+
 .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
